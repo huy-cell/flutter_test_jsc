@@ -77,5 +77,5 @@ API mặc định chạy ở: http://localhost:3000
 
 📩 Liên hệ
 Nếu bạn cần hỗ trợ hoặc góp ý:
-📧 Email: huy.dev@example.com
+📧 Email: huytran45690@gmail.com
 📱 Zalo: 0912534481
