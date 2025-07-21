@@ -27,14 +27,16 @@
 
 ## 📂 Cấu trúc thư mục
 
+```bash
 lib/
-├── models/ # Định nghĩa model: Product, Category
-├── services/ # API giả lập, SQLite
-├── viewmodels/ # Logic xử lý (Provider)
-├── views/
-│ ├── product_list/ # Màn hình danh sách sản phẩm
-│ └── product_detail/ # Thêm/sửa sản phẩm
-└── main.dart # Điểm khởi đầu ứng dụng
+├── models/               # Định nghĩa model: Product, Category  
+├── services/             # API giả lập, SQLite  
+├── viewmodels/           # Logic xử lý (Provider)  
+├── screens/              # Giao diện chính chia theo màn hình  
+│   ├── product_list/         # Màn hình danh sách sản phẩm  
+│   ├── product_detail/       # Màn hình chi tiết sản phẩm  
+│   └── add_edit_product/     # Màn hình thêm / chỉnh sửa sản phẩm  
+├── main.dart             # Điểm khởi đầu ứng dụng  
 
 ---
 
@@ -61,7 +63,19 @@ lib/
 ### ▶️ Cài đặt và chạy
 
 ```bash
-git clone https://github.com/your-username/flutter_test_jsc.git
+git clone https://github.com/huy-cell/flutter_test_jsc.git
 cd flutter_test_jsc
 flutter pub get
 flutter run
+
+🌐 Mock API (Node.js)
+API giả lập được viết bằng Node.js để phục vụ kiểm thử.
+cd mock_api
+npm install
+node server.js
+API mặc định chạy ở: http://localhost:3000
+
+📩 Liên hệ
+Nếu bạn cần hỗ trợ hoặc góp ý:
+📧 Email: huy.dev@example.com
+📱 Zalo: 0912534481
