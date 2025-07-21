@@ -37,7 +37,7 @@ lib/
 │   ├── product_detail/       # Màn hình chi tiết sản phẩm  
 │   └── add_edit_product/     # Màn hình thêm / chỉnh sửa sản phẩm  
 ├── main.dart             # Điểm khởi đầu ứng dụng  
-
+```
 ---
 
 ## ✅ Tính năng nổi bật
